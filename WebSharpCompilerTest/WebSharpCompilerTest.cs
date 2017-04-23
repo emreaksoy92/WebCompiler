@@ -22,20 +22,28 @@ namespace WebSharpCompilerTest
         {
             WebSharpCompiler compiler = new WebSharpCompiler();
 
-            // REVIEW MATT : Updated to be more readable.
+            
             string programText= @"
-                using **** System;
-
-                namespace HelloWorld
+                using System;
+                using System.Collections.Generic;
+                using System.Web;
+                using System.Web.UI;
+                using System.Web.UI.WebControls;
+ 
+                namespace CodeCompile
                 {
-                    class HelloWorldClass
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void Page_Load(object sender, EventArgs e)
                     {
-                        static void Main(string[] args)
-                        {
-                            Console.ReadLine();
-                        }
+             
                     }
-                }";
+                    public int myFunc()
+                    {
+                        return 5;
+                   }
+                }      
+        }";
 
             List<string> compilerErrors = compiler.CompileError(programText);
 
@@ -47,19 +55,28 @@ namespace WebSharpCompilerTest
         {
             WebSharpCompiler compiler = new WebSharpCompiler();
 
-           
-            string programText = @"
-                using **** System;
 
-                namesp8ce HelloWorld
+            string programText = @"
+                using System;
+                using System.Collections.Generic;
+                using System.Web;
+                using System.Web.UI;
+                using System.Web.UI.WebControls;
+ 
+                namespace CodeCompile
                 {
-                    clas HelloWorldClass
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void Page_Load(object sender, EventArgs e)
                     {
-                        static void Main(string[] args)
-                        {
-                            Console.ReadLine();
-                        }
-                    }";
+             
+                    }
+                    public int myFunc()
+                    {
+                        return 5;
+                   }
+                }      
+        }";
 
             List<string> compilerErrors = compiler.CompileError(programText);
 
@@ -71,20 +88,28 @@ namespace WebSharpCompilerTest
         {
             WebSharpCompiler compiler = new WebSharpCompiler();
 
-            
+
             string programText = @"
                 using System;
-
-                namespace HelloWorld
+                using System.Collections.Generic;
+                using System.Web;
+                using System.Web.UI;
+                using System.Web.UI.WebControls;
+ 
+                namespace CodeCompile
                 {
-                    class HelloWorldClass
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void Page_Load(object sender, EventArgs e)
                     {
-                        static void Main(string[] args)
-                        {
-                            Console.ReadLine();
-                        }
+             
                     }
-                }";
+                    public int myFunc()
+                    {
+                        return 5;
+                   }
+                }      
+        }";
 
             List<string> compilerErrors = compiler.CompileError((programText));
 

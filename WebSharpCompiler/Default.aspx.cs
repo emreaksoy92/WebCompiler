@@ -74,8 +74,7 @@ namespace WebSharpCompiler
 
             while ((line = file.ReadLine()) != i.ToString())
             {
-                list.Add(line);
-                
+                list.Add(line);      
             }
             txtCode.Text = list.ToString(); 
         }
