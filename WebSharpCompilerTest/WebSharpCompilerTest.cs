@@ -25,9 +25,7 @@ namespace WebSharpCompilerTest
             
             string programText= @"
                 using System;
-                using System.Collections.Generic;
-                using System.Web;
-                using System.Web.UI;
+                using System.Collections.Generic;              
                 using System.Web.UI.WebControls;
  
                 namespace CodeCompile
@@ -67,7 +65,7 @@ namespace WebSharpCompilerTest
                 {
                 public partial class _Default : System.Web.UI.Page
                 {
-                    protected void Page_Load(object sender, EventArgs e)
+                    protected voıd Page_Load(object sender, EventArgs e)
                     {
              
                     }
@@ -106,7 +104,8 @@ namespace WebSharpCompilerTest
                     }
                     public int myFunc()
                     {
-                        return 5;
+                        string a;
+                        return a;
                    }
                 }      
         }";

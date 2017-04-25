@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Code>
+  <c>
+using System;
+using System.Collections.Generic;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace CodeCompile
+ {
+    public partial class _Default : System.Web.UI.Page
+ {
+    protected void Page_Load(object sender, EventArgs e)
+ {
+
+ }
+    public int myFunc()
+ {
+    return 5;
+     }
+     }
+ }
+  </c>
+  <c>
+using System;
+using System.Collections.Generic;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace CodeCompile
+ {
+    public partial class _Default : System.Web.UI.Page
+ {
+    protected void Page_Load(object sender, EventArgs e)
+ {
+
+ }
+    public int myFunc()
+ {
+    return 3;
+     }
+     }
+ }
+  </c>
+  <c>
+using System;
+using System.Collections.Generic;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace CodeCompile
+ {
+    public partial class _Default : System.Web.UI.Page
+ {
+    protected void Page_Load(object sender, EventArgs e)
+ {
+
+ }
+    public int myFunc()
+ {
+    return 10;
+     }
+     }
+ }
+  </c>
+
+</Code>

@@ -5,12 +5,13 @@
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <div style="height: 82px">
 
-        <asp:Label ID="problemNo" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="problemNo" runat="server" Text="Label">1</asp:Label>
         <br />
-        <asp:Label ID="problemLbl" runat="server" Text="Label" TextMode="Multiline"></asp:Label>
+        <asp:Label ID="problemLbl" runat="server" Text="Label" TextMode="Multiline">emreaksoy</asp:Label>
+        
 
         <br />
-        <asp:Label ID="answerLbl" runat="server" Text="Label" TextMode="Multiline"></asp:Label>
+        <asp:Label ID="answerLbl" runat="server" Text="Label" TextMode="Multiline" Visible="False"></asp:Label>
 
         <br />
         <asp:Label ID="checkLbl" runat="server" Text="Label" Visible="False"></asp:Label>
@@ -27,28 +28,27 @@
     
     <p>
        
-        <asp:TextBox ID="txtCode" runat="server" Height="403px" Width="49%" Style="text-align: left" TextMode="MultiLine">
+        <asp:TextBox ID="txtCode" runat="server" Height="400px" Width="49%" Style="text-align: left" TextMode="MultiLine">
 using System;
-        using System.Collections.Generic;
-        using System.Web;
-        using System.Web.UI;
-        using System.Web.UI.WebControls;
- 
-        namespace CodeCompile
-        {
-        public partial class _Default : System.Web.UI.Page
-        {
-            protected void Page_Load(object sender, EventArgs e)
-            {
-             
-            }
-            public int myFunc()
-            {
-                return 5;
-           }
-        }
-        }
-            
+using System.Collections.Generic;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace CodeCompile
+ {
+    public partial class _Default : System.Web.UI.Page
+ {
+    protected void Page_Load(object sender, EventArgs e)
+ {
+
+ }
+    public int myFunc()
+ {
+    return 5;
+     }
+     }
+ }           
 </asp:TextBox>
 
     <asp:TextBox ID="ResultOutput" runat="server" Width="49%" TextMode="MultiLine" Style="text-align:right" Height="400px"></asp:TextBox>
@@ -56,7 +56,6 @@ using System;
     </p>
     <p>
         <asp:Button ID="btnCompile" runat="server" onclick="btnCompile_Click" Text="Compile"/>
-        <asp:Button ID="btnClear" runat="server"  onclick="btnClear_Click" Text="Clear" />
     </p>
         
     <h2>Error Output
@@ -64,7 +63,6 @@ using System;
     <p>
         
         <asp:ListBox ID="lstCompilerOutput" runat="server" Width="100%" Height="63px"></asp:ListBox>
-        <asp:Label ID="Label3" runat="server" Text="Label" Content ="{Binding Name, FallbackValue = 0}" ></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server">0</asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server" Visible="False">0</asp:TextBox>
     </p>
 </asp:Content>

@@ -6,6 +6,7 @@ using System.Reflection;
 using Microsoft.CSharp;
 using System.IO;
 using System.Web.UI.WebControls;
+using System.Xml;
 
 namespace WebSharpCompiler
 {
@@ -23,15 +24,13 @@ namespace WebSharpCompiler
 
             if (compilerErrors.Count == 0)
             {
-                lstCompilerOutput.Items.Add("No Errors");
-                
+                lstCompilerOutput.Items.Add("No Errors");              
                 string result = compiler.CompileResult(txtCode.Text);
                 ResultOutput.Text = result;
                 NextLine(counter);
-                //NextCode(counter);                        
             }
             else {
-                ResultOutput.Text = "error!, Check error output please !";
+                ResultOutput.Text = "Error!, Check error output please !";
                 foreach (string error in compilerErrors)
                 {
                     lstCompilerOutput.Items.Add(error);
@@ -41,49 +40,59 @@ namespace WebSharpCompiler
         }
         public void NextLine(int i)
         {
-            string CurrentLine;
-            string Cevap;
-            int LastLineNumber = i;
-            
-           StreamReader file = new StreamReader("C:\\Users\\Emre\\Desktop\\New folder\\WebSharpCompiler\\App_Data\\soru.txt");
-           StreamReader file1 = new StreamReader("C:\\Users\\Emre\\Desktop\\New folder\\WebSharpCompiler\\App_Data\\cevap.txt");
+            string SoruLine ="";
+            string CevapLine = "";
+            int LastLineNo = i+1;
 
-            for (int c = i - 1; c < LastLineNumber; c++)
+           StreamReader file = new StreamReader(Server.MapPath(@"~\App_Data\soru.txt"));
+           StreamReader file1 = new StreamReader(Server.MapPath(@"~\App_Data\cevap.txt"));
+
+            for (int c = 0; c<LastLineNo; c++)
             {
-                file.ReadLine();
-                file1.ReadLine();
+                SoruLine = file.ReadLine();
+                CevapLine = file1.ReadLine();
             }
-            
-                CurrentLine = file.ReadLine();            
-                problemLbl.Text = CurrentLine.ToString();
+                             
+                problemLbl.Text = SoruLine.ToString();
+                answerLbl.Text = CevapLine.ToString();
 
-                Cevap = file1.ReadLine();
-                answerLbl.Text = Cevap.ToString();
-
-                problemNo.Text = (LastLineNumber+1).ToString();
-                LastLineNumber++;
+                problemNo.Text = (i+1).ToString();
+            LastLineNo++;
           
         }
 
         public void NextCode(int i)
         {
-            StreamReader file = new StreamReader("C:\\Users\\Emre\\Desktop\\New folder\\WebSharpCompiler\\App_Data\\code.txt");
-            List<String> list = new List<string>();
             
-            string line;
+            XmlTextReader oku = new XmlTextReader(Server.MapPath(@"~\App_Data\code.xml"));
 
-            while ((line = file.ReadLine()) != i.ToString())
+            string[] Cevap = new string[1];
+            int c = 0;
+
+            while (oku.Read())
             {
-                list.Add(line);      
+                if (oku.NodeType == XmlNodeType.Element)
+                {
+                    if (oku.Name == "c")
+                    {
+                        Cevap[c] = oku.ReadString().ToString();
+                        c++;
+                        Array.Resize<string>(ref Cevap, Cevap.Length + 1);
+                    }
+                }
             }
-            txtCode.Text = list.ToString(); 
+
+            oku.Close();
+            if (Cevap[i] == null)
+            {
+                Array.Resize<string>(ref Cevap, Cevap.Length - 1);
+            }
+            txtCode.Text = Cevap[i].ToString();
         }
         
-        
-        protected void btnClear_Click(object sender, EventArgs e)
-        {
-            txtCode.Text = string.Empty;
-        }
+
+
+       
 
         protected void NextQuestionBtn_Click(object sender, EventArgs e)
         {
@@ -97,6 +106,8 @@ namespace WebSharpCompiler
                 checkLbl.ForeColor = System.Drawing.Color.Green;
                 counter++;
                 TextBox1.Text = counter.ToString();
+                NextLine(counter);
+                NextCode(counter);
             }
             else
             {
