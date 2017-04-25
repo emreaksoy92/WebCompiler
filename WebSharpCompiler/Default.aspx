@@ -16,7 +16,7 @@
         <br />
         <asp:Label ID="checkLbl" runat="server" Text="Label" Visible="False"></asp:Label>
         <br />
-        <asp:Button ID="NextQuestionBtn" runat="server" OnClick="NextQuestionBtn_Click" Text="Next Question" />
+        <asp:Button ID="NextQuestionBtn" runat="server" OnClick="NextQuestionBtn_Click" Text="Next Question" style="height: 26px" />
 
     </div>
     <h2>Code</h2>
@@ -56,7 +56,7 @@ namespace CodeCompile
         
     </p>
     <p>
-        <asp:Button ID="btnCompile" runat="server" onclick="btnCompile_Click" Text="Compile"/>
+        <%--<asp:Button ID="btnCompile" runat="server" onclick="btnCompile_Click" Text="Compile"/>--%>
     </p>
         
     <h2>Error Output

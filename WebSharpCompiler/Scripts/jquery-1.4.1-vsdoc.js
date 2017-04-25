@@ -1245,7 +1245,9 @@ function now() {
 	//	root.removeChild( script );
 
 	//	if ( div.attachEvent && div.fireEvent ) {
-	//		div.attachEvent("onclick", function click() {
+    //		div.attachEvent("
+
+    ", function click() {
 	//			// Cloning a node shouldn't copy over any
 	//			// bound event handlers (IE does this)
 	//			jQuery.support.noCloneEvent = false;

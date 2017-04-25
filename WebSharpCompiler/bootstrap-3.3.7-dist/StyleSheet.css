@@ -1,0 +1,146 @@
+﻿body {
+
+    background-color:#0173AA;
+
+}
+
+.push50{
+
+    height:46px;
+    top: 4px;
+    left: 0px;
+}
+
+.hintText{
+
+    font-weight:500;
+    font-size:26px;
+    color:black;
+}
+
+.hintbutton{
+
+    height:40px;
+    width :60px;
+    font-size:20px;
+    border-radius:10px;
+   
+
+}
+
+.right{
+    float:right;
+}
+
+.resultbutton{
+
+    height:100%;
+    font-size:20px;
+    border-radius:10px;
+    
+   width:100%;
+
+}
+
+.push26{
+    height:5px;
+    top: 0px;
+    left: 0px;
+}
+
+.pad0{
+
+    padding:0px;
+}
+
+.pad20{
+    padding:20px;
+}
+
+
+.push400{
+
+    height:200px;
+  
+
+}
+#ust{
+
+    margin-top:20px;
+}
+    
+.box{
+
+    height:600px;
+
+     
+}
+.innerBox{
+
+    height:600px;
+    width:100%;
+    padding:20px;
+    background-color:#323433;
+    border-radius:20px;
+}
+
+.sorular{
+    color: white;
+    font-size:21px;
+    
+}
+
+.sonuclar{
+   
+    padding:20px;
+    font-size:14px;
+    height:100%;
+    width:100%;
+    background:white;
+ 
+}
+
+.TextBox{
+    height:100%;
+    width:100%;
+}
+
+.margintop40{
+
+    margin-top:40px;
+}
+
+.QuestionBox{
+
+    height:200px;
+    background-color:#323433;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+
+}
+
+.sorusayi{
+
+    font-size:100px;
+    color:white;
+
+    margin:auto;
+    
+
+   
+}
+
+.content,iframe{
+    overflow:scroll;
+	border:0;
+	height:100%;
+	margin:0;
+	padding:0;
+	width:100%;
+    background-color:white;
+}
+
+.sorusayisibox{
+
+    height:100%;
+}
