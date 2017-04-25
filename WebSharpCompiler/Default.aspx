@@ -7,7 +7,7 @@
 
         <asp:Label ID="problemNo" runat="server" Text="Label">1</asp:Label>
         <br />
-        <asp:Label ID="problemLbl" runat="server" Text="Label" TextMode="Multiline">emreaksoy</asp:Label>
+        <asp:Label ID="problemLbl" runat="server" Text="Label" TextMode="Multiline">Switch the code as shown below as you desired, which gives return function must give 5 as output!</asp:Label>
         
 
         <br />
@@ -15,7 +15,8 @@
 
         <br />
         <asp:Label ID="checkLbl" runat="server" Text="Label" Visible="False"></asp:Label>
-        <asp:Button ID="NextQuestionBtn" runat="server" OnClick="NextQuestionBtn_Click" Text="Button" />
+        <br />
+        <asp:Button ID="NextQuestionBtn" runat="server" OnClick="NextQuestionBtn_Click" Text="Next Question" />
 
     </div>
     <h2>Code</h2>
@@ -51,7 +52,7 @@ namespace CodeCompile
  }           
 </asp:TextBox>
 
-    <asp:TextBox ID="ResultOutput" runat="server" Width="49%" TextMode="MultiLine" Style="text-align:right" Height="400px"></asp:TextBox>
+    <asp:TextBox ID="ResultOutput" runat="server" Width="49%" TextMode="MultiLine" Style="text-align:right" Height="400px" ReadOnly="True"></asp:TextBox>
         
     </p>
     <p>

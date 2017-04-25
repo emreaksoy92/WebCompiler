@@ -1,4 +1,3 @@
-emreaksoy
-duyguaksoy
-filizaksoy
-ismailaksoy
+Switch the code as shown below as you desired, which gives return function must give 5 as output!
+Switch the code as shown below as you desired, which gives "Hello World" string as output!
+Write an if function which compares 5 and 10, and gives output which is bigger!

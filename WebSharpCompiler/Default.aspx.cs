@@ -20,6 +20,7 @@ namespace WebSharpCompiler
             WebSharpCompilerBusiness.WebSharpCompiler compiler = new WebSharpCompilerBusiness.WebSharpCompiler();
           
             List<string> compilerErrors = compiler.CompileError(txtCode.Text);
+
             
 
             if (compilerErrors.Count == 0)
@@ -90,14 +91,17 @@ namespace WebSharpCompiler
             txtCode.Text = Cevap[i].ToString();
         }
         
-
-
        
 
         protected void NextQuestionBtn_Click(object sender, EventArgs e)
         {
             
             int counter = Convert.ToInt32(this.TextBox1.Text);
+
+            if (counter == 4)
+            {
+                Response.Redirect("About.aspx");
+            }
 
             if (answerLbl.Text == ResultOutput.Text)
             {
@@ -115,11 +119,12 @@ namespace WebSharpCompiler
                 checkLbl.Text = "False!";
                 checkLbl.ForeColor = System.Drawing.Color.Red;
             }
+            
         }
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            checkLbl.Visible = false;
         }
     }
 }

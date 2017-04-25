@@ -23,8 +23,7 @@ namespace WebSharpCompilerTest
             WebSharpCompiler compiler = new WebSharpCompiler();
 
             
-            string programText= @"
-                using System;
+            string programText= @"using System;
                 using System.Collections.Generic;              
                 using System.Web.UI.WebControls;
  
