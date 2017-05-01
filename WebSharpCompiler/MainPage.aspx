@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MainPage.aspx.cs" Inherits="WebSharpCompiler.MainPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MainPage.aspx.cs" Inherits="WebSharpCompiler.MainPage" ValidateRequest="false" %>
 
 <!DOCTYPE html>
 
@@ -47,13 +47,12 @@
 
             <div class="row" >           
                 <div class="col-md-9 push50">
-                       <asp:UpdatePanel ID="UpdatePanel1" runat="server">
-                                     <ContentTemplate>
-                               <asp:Button ID="hintButton"  runat="server" Text="Hint" CssClass="btn-warning  hintbutton" OnClick="hintButton_Click" />
+                       
+                                     
+                               <%--<asp:Button ID="hintButton"  runat="server" Text="Hint" CssClass="btn-warning  hintbutton" OnClick="hintButton_Click" />--%>
                                <asp:Label ID="checkLbl" runat="server" Text="Label" Visible="False" CssClass="hintText"></asp:Label>
-                
-                     </ContentTemplate>      
-                               </asp:UpdatePanel>
+                    
+                               
                      
                 </div>
 
@@ -92,12 +91,10 @@ namespace CodeCompile
  }           
 </asp:TextBox>
                                     	</div>                               
-                                          <asp:UpdatePanel ID="UpdatePanel2" runat="server">
-                                     <ContentTemplate>
+                                        
                                         <div id="html1" class="content html1"  contenteditable="true" runat="server" visible="false">
                                         </div>
-                                  </ContentTemplate>      
-                               </asp:UpdatePanel>                                
+                                                           
                                 </div>                            
                             </div>                         
                         </div>
@@ -106,8 +103,8 @@ namespace CodeCompile
 
                             <div class="row">
                                 <div class="col-md-12 innerBox">
-                                    <asp:TextBox ID="ResultOutput" runat="server" Width="95%" TextMode="MultiLine" Height="502px" ReadOnly="True"></asp:TextBox>
-                                    <asp:ListBox ID="lstCompilerOutput" runat="server" Width="100%" Height="63px"></asp:ListBox>
+                                    <asp:TextBox ID="ResultOutput" runat="server" Width="95%" TextMode="MultiLine" Height="320px" ReadOnly="True"></asp:TextBox>
+                                    <asp:ListBox ID="lstCompilerOutput" runat="server" Width="95%" Height="242px" SelectionMode="Multiple"></asp:ListBox>
                                     <asp:TextBox ID="TextBox1" runat="server" Visible="False">0</asp:TextBox>
                                     </div>
                                 </div>
@@ -117,14 +114,13 @@ namespace CodeCompile
                 <div class="col-md-12 push50"></div>
                  </div>
       	
-                                     <asp:UpdatePanel ID="UpdatePanel4" runat="server">
-                                     <ContentTemplate>
+                                     
               <div class="row">
                   
                      
                 <div class=" col-md-3">
                     
-                    <button id="runButton" type="button"  class="btn btn-success btn-lg btn-block" onclick="answerButton_Click" runat="server">RUN</button>
+                 <%--   <button id="runButton" type="button"  class="btn btn-success btn-lg btn-block" onclick="answerButton_Click" runat="server">RUN</button>--%>
                     
 
                                      
@@ -134,13 +130,12 @@ namespace CodeCompile
                  <div class="col-md-3 right">
 
                       
-                     <asp:Button ID="answerButton" runat="server" Text="See Answer"  CssClass="btn-danger btn-lg resultbutton" OnClick="answerButton_Click" />
+                     <asp:Button ID="answerButton" runat="server" Text="Run" CssClass="btn-danger btn-lg resultbutton" OnClick="answerButton_Click" />
       
                  </div>
 
                 </div>
-          </ContentTemplate>      
-             </asp:UpdatePanel>
+        
                </div>  
       </div>
 
@@ -149,50 +144,3 @@ namespace CodeCompile
        
 </body>
 </html>
-
-<%--<script>
-    function compile(x) {
-        var temp;
-        if (x == 0)
-        {
-           temp = "html";
-        } else
-        {
-            temp = "html1";
-        }       
-            var html = document.getElementById(temp).textContent,
-                output = document.getElementById("iframe"),
-                js="";
-         
-
-            var start = html.search("<script>");
-           
-            var end = html.lastIndexOf("script>");
-
-            if (start >= 0 && end >= 0) {
-                for(var i=start+8;i<end-2;i++)
-                {
-                    js += html[i];
-                 
-                }
-            }
-     
-            working = false,
-            fill=function() {
-                if (working) {
-                    return false;
-                }
-                working = true;
-                var document = iframe.contentDocument,
-                    script = document.createElement("script");
-
-              
-
-                script.innerHTML = js;
-                document.body.innerHTML = html;
-                document.body.appendChild(script);
-                working = false;
-            };
-        fill.apply();
-    }
-</script>--%>

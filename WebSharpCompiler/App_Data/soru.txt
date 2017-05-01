@@ -1,3 +1,10 @@
 Switch the code as shown below as you desired, which gives return function must give 5 as output!
 Switch the code as shown below as you desired, which gives "Hello World" string as output!
 Write an if function which compares 5 and 10, and gives output which is bigger!
+Return the value of the area, which's length and width given below !
+Number 5 is given you as a string value, convert it into a interger value and print the output!
+Use "For" loop to add 11,12,13,14,15 together!
+Use "While" loop to add 11,12,13,14,15 together!
+Use "Do" loop to add 11,12,13,14,15 together!
+Switch the code as shown below to print HelloWorld output with combining strings!;
+Print the Excellent! result from switch loop !

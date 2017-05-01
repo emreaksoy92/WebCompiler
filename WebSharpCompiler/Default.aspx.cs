@@ -22,15 +22,29 @@ namespace WebSharpCompiler
             List<string> compilerErrors = compiler.CompileError(txtCode.Text);
 
             
-
             if (compilerErrors.Count == 0)
             {
                 lstCompilerOutput.Items.Add("No Errors");              
                 string result = compiler.CompileResult(txtCode.Text);
-                ResultOutput.Text = result;
+                ResultOutput.Text = result;              
                 NextLine(counter);
+                if(answerLbl.Text == ResultOutput.Text)
+                {
+                    checkLbl.Visible = true;
+                    checkLbl.Text = "Correct!";
+                    checkLbl.ForeColor = System.Drawing.Color.Green;
+                }
+                else
+                {
+                    checkLbl.Visible = true;
+                    checkLbl.Text = "False!";
+                    checkLbl.ForeColor = System.Drawing.Color.Red;
+                }
             }
             else {
+                checkLbl.Visible = true;
+                checkLbl.Text = "False!";
+                checkLbl.ForeColor = System.Drawing.Color.Red;
                 ResultOutput.Text = "Error!, Check error output please !";
                 foreach (string error in compilerErrors)
                 {
@@ -98,33 +112,33 @@ namespace WebSharpCompiler
             
             int counter = Convert.ToInt32(this.TextBox1.Text);
 
-            if (counter == 4)
+            if (counter == 10)
             {
                 Response.Redirect("About.aspx");
             }
 
             if (answerLbl.Text == ResultOutput.Text)
-            {
-                checkLbl.Visible = true;
-                checkLbl.Text = "Correct!";
-                checkLbl.ForeColor = System.Drawing.Color.Green;
+            {             
                 counter++;
                 TextBox1.Text = counter.ToString();
                 NextLine(counter);
                 NextCode(counter);
+                ResultOutput.Text = "";
             }
             else
             {
-                checkLbl.Visible = true;
-                checkLbl.Text = "False!";
-                checkLbl.ForeColor = System.Drawing.Color.Red;
+               
             }
             
         }
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            checkLbl.Visible = false;
+            if (IsPostBack)
+            {
+                checkLbl.Visible = false;             
+            }
+
         }
     }
 }

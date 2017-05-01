@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="Default.aspx.cs" Inherits="WebSharpCompiler._Default" %>
+    CodeBehind="Default.aspx.cs" Inherits="WebSharpCompiler._Default" ValidateRequest="false" %>
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
@@ -56,7 +56,7 @@ namespace CodeCompile
         
     </p>
     <p>
-        <%--<asp:Button ID="btnCompile" runat="server" onclick="btnCompile_Click" Text="Compile"/>--%>
+        <asp:Button ID="btnCompile" runat="server" onclick="btnCompile_Click" Text="Compile"/>
     </p>
         
     <h2>Error Output

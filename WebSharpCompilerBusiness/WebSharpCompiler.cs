@@ -11,6 +11,8 @@ namespace WebSharpCompilerBusiness
     {
         public List<string> CompileError(string programText)
         {
+            string a = "5";
+            int x = Int16.Parse(a);
             List<string> messages = new List<string>();
             if (String.IsNullOrEmpty(programText))
             {

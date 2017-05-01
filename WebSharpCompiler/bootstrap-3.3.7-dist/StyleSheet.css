@@ -30,6 +30,9 @@
 
 .right{
     float:right;
+    top: 0px;
+    left: 0px;
+    width: 336px;
 }
 
 .resultbutton{
