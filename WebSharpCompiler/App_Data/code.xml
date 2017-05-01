@@ -111,7 +111,7 @@ namespace CodeCompile
     {
     public partial class _Default : System.Web.UI.Page
     {
-      string a = "5";
+      string c = "5";
       protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -169,7 +169,7 @@ namespace CodeCompile
     }
     public int myFunc()
     {
-    int a = 10;
+    int a = 9;
     int c;
     while(a &#60; 15)
     {
@@ -269,6 +269,7 @@ namespace CodeCompile
     default:
     return "Out of range !!";
     break;
+    }
     }
     }
     }
