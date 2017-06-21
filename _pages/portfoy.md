@@ -33,7 +33,7 @@ Portföyünüzdeki bu ürünü anlatın. Ürünü kimin için ve neden ürettiğ
 
 In this school project i have done an e-commerce web site for selling cakes & bakes. Through this site an amateur cook could sell his products online to customers via cargo. Customers should have to sign-in to order online. The site contains 4 main pages ( Home, Products, About Us and Contact). This project can be found under:
 
-<https://github.com/emreaksoy92/E-Commerce-Website>
+<a href="https://github.com/emreaksoy92/E-Commerce-Website" target="_blank" rel="noopener">Github: Alina's Patssier</a>
 
  [1]: http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/portfolio-1a.jpg
  [2]: http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/portfolio-1b.jpg
