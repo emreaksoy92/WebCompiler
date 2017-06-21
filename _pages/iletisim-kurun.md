@@ -14,6 +14,6 @@ wpnux_page:
 primer_layout:
   - one-column-wide
 ---
+Benimle iletişime geçmek için aşağıdaki formu doldurmanız yeterli; size en kısa sürede dönüş yapacağım.
 
-	<p>Benimle iletişime geçmek için aşağıdaki formu doldurmanız yeterli; size en kısa sürede dönüş yapacağım.</p>
-	<p>[ninja_forms id=1]</p>
+[ninja_forms id=1]
