@@ -1,6 +1,6 @@
 ---
 ID: 2
-post_title: Hakkımda
+post_title: About Me
 author: admin
 post_date: 2017-05-31 03:11:57
 post_excerpt: ""
