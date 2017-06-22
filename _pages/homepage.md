@@ -36,8 +36,3 @@ primer_layout:
 <p>İşletmenizi rekabette eşsiz ve üstün kılan her şeyi dikkate alın. En gerçekçi görünen dolgu oyuncak hayvanları siz mi yapıyorsunuz? Bunu yapmak için 13 adımdan oluşan patentli bir süreciniz var diyelim. Bundan kesinlikle bahsetmeniz gerekir.</p>
 <p>Bahsedebileceğiniz durumlar için diğer örnekler: kazanılan ödüller, mansiyonlar, sattığınız ürün sayısı, şirketinizin felsefesi (kısa tutun), şirketinizin geçmişinden ilginç anlar; kısacası okuyucuya sizinle çalışmanın muhteşem bir deneyim olduğunu düşündürecek her şey.</p>
 				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/home-4.jpg" alt="home-4" itemprop="image" height="1920" width="1440"  />
-		<h3>Sonraki adımlar...</h3>
-		<p>Burada potansiyel müşteriyi fiyat teklifi talep etmek ya da ürün kataloğunuzu dikkatle incelemek gibi eyleme götürecek en önemli noktadan söz edilmelidir.</p>
-			<a href="" target="_self" role="button">
-							Eylem Çağrısı
-					</a>
