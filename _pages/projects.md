@@ -44,10 +44,11 @@ primer_layout:
 	<h4>ARDUINO UNO / C</h4>
 <h2>Touch Piano</h2>
 <p>With the help of Arduiono Uno, I developed a working piano with using only cardboard, tin foil, leds and cables. On a cardboard base i put 7 tin foil pieces to generate sound via capacitorsense library, with a simple buzzer put on the circuit, system was able to generate piano sounds with touching tin foil. It was pretty fun</p>
-			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/portfolio-2a.jpg" alt="" />			
-			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/portfolio-2b.jpg" alt="" />			
-			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/portfolio-2c.jpg" alt="" />			
-			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/portfolio-2d.jpg" alt="" />			
+			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/21.jpg" alt="" />			
+			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/22.jpg" alt="" />			
+			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/23.jpg" alt="" />			
+			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/24.jpg" alt="" />			
+			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/25.jpg" alt="" />			
 				<a href="#" aria-label="previous" aria-role="button"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
 <path d="M398.572,104.287L246.857,256.001l151.715,151.714c3.617,3.618,5.428,7.904,5.428,12.856c0,4.953-1.811,9.238-5.428,12.857 l-47.428,47.428c-3.619,3.619-7.904,5.428-12.857,5.428s-9.238-1.809-12.857-5.428l-212-212c-3.619-3.618-5.428-7.904-5.428-12.856 c0-4.953,1.81-9.238,5.428-12.857l212-212c3.619-3.618,7.904-5.428,12.857-5.428s9.238,1.81,12.857,5.428l47.428,47.429 C402.189,82.19,404,86.476,404,91.428c0,4.953-1.811,9.238-5.428,12.857V104.287z"/>
 </svg>
