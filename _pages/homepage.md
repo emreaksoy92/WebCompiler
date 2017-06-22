@@ -14,22 +14,22 @@ primer_layout:
 ---
 
 				<a href="#" target="_self" itemprop="url">
-				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/home-1.jpg" alt="" itemprop="image"  />
+				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/who-am-i.jpg" alt="" itemprop="image"  />
 				</a>
-	<h3><a href="#" target="_self">Ürün / Hizmet 1</a></h3>		
-			<p>Şirketiniz, ister et ürünleri ya da spor giyim ürünleri olsun, isterse ilginç kostümler satıyor olsun; en çok ne ile tanınıyorsanız, buna dair mesajınızı paylaşacağınız yer tam da burası.</p>
+	<h3><a href="#" target="_self">About me</a></h3>		
+			<p>You can check my personal background, my skills and a brief explanation about what i do from here.</p>
 <a href="#" target="_self">Daha fazla bilgi edinin</a>		 
 				<a href="#" target="_self" itemprop="url">
-				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/home-2.jpg" alt="" itemprop="image"  />
+				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/Computing_programming_and_coding_in_schools.jpg" alt="" itemprop="image"  />
 				</a>
-	<h3><a href="#" target="_self">Ürün / Hizmet 2</a></h3>		
-			<p>Satışa sunmak ya da pazarlamak istediğiniz başka popüler bir ürününüz daha var mı? Dikkat çekici ve akılda kalan ifadeler kullanarak bu ürünü tanıtın; sitenizi ziyaret edenlerin aklı kalsın, ürünü almak istesin.</p>
+	<h3><a href="#" target="_self">My Projects</a></h3>		
+			<p>This section contains what have i done until now, school projects personal avocations and such...</p>
 <a href="#" target="_self">Daha fazla bilgi edinin</a>		 
 				<a href="#" target="_self" itemprop="url">
-				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/home-3.jpg" alt="" itemprop="image"  />
+				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/iStock_000015286795Medium.jpg" alt="" itemprop="image"  />
 				</a>
-	<h3><a href="#" target="_self">Ürün / Hizmet 3</a></h3>		
-			<p>Bu ürünü üçüncü sıraya koyduğunuz için yabana atmış olmuyorsunuz. Sanki Olimpiyat Oyunları’nda en güzel ürünler/hizmetler dalında bronz madalyanın kazananı bu ürünmüş gibi düşünebilirsiniz.</p>
+	<h3><a href="#" target="_self">Blog</a></h3>		
+			<p>I am eager to search the web improve myself in every possible way and share what i found. You can find what i found out while i was searching in this blog, or maybe just random updates about my life, who knows..</p>
 <a href="#" target="_self">Daha fazla bilgi edinin</a>		 
 	<h3>Ana Mesajınız</h3>
 <p>Bu alanı insanlara şirketinizin neyi neden ve nasıl yaptığını açıklamak için kullanın. Ne ile tanınıyorsunuz? Hangi kitleler sizi seviyor? En büyük rekabet avantajınız nedir?</p>
