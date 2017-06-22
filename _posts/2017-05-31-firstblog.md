@@ -5,8 +5,7 @@ author: admin
 post_date: 2017-05-31 03:11:57
 post_excerpt: ""
 layout: post
-permalink: >
-  http://www.emreaksoy.com.tr/blog-gonderisi-basligi/
+permalink: http://www.emreaksoy.com.tr/firstblog/
 published: true
 wpnux_page:
   - blog_post
