@@ -12,7 +12,6 @@ wpnux_page:
 primer_layout:
   - one-column-wide
 ---
-
 				<a href="/aboutme/" target="_self" itemprop="url">
 				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/who-am-i.jpg" alt="" itemprop="image"  />
 				</a>
