@@ -12,12 +12,13 @@ wpnux_page:
 primer_layout:
   - one-column-wide
 ---
+
 				<a href="#" target="_self" itemprop="url">
 				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/who-am-i.jpg" alt="" itemprop="image"  />
 				</a>
 	<h3><a href="#" target="_self">About me</a></h3>		
 			<p>You can check my personal background, my skills and a brief explanation about what i do from here.</p>
-<a href="#" target="_self">Daha fazla bilgi edinin</a>		 
+<a href="#" target="_self">See more..</a>		 
 				<a href="#" target="_self" itemprop="url">
 				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/Computing_programming_and_coding_in_schools.jpg" alt="" itemprop="image"  />
 				</a>
