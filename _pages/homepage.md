@@ -25,9 +25,9 @@ primer_layout:
 	<h3><a href="/projects/" target="_self">My Projects</a></h3>		
 			<p>This section contains what have i done until now, school projects personal avocations and such...</p>
 <a href="/projects/" target="_self">See More..</a>		 
-				<a href="/blod/" target="_self" itemprop="url">
+				<a href="/blog/" target="_self" itemprop="url">
 				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/iStock_000015286795Medium.jpg" alt="" itemprop="image"  />
 				</a>
-	<h3><a href="/blod/" target="_self">Blog</a></h3>		
+	<h3><a href="/blog/" target="_self">Blog</a></h3>		
 			<p>I am eager to search the web improve myself in every possible way and share what i found. You can find what i found out while i was searching in this blog, or maybe just random updates about my life, who knows..</p>
-<a href="/blod/" target="_self">See More..</a>
+<a href="/blog/" target="_self">See More..</a>
