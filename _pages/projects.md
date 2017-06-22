@@ -12,7 +12,6 @@ wpnux_page:
 primer_layout:
   - one-column-wide
 ---
-
 			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/1.jpg" alt="" />			
 			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/2.jpg" alt="" />			
 			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/3.jpg" alt="" />			
