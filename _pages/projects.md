@@ -12,6 +12,7 @@ wpnux_page:
 primer_layout:
   - one-column-wide
 ---
+
 			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/1.jpg" alt="" />			
 			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/2.jpg" alt="" />			
 			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/3.jpg" alt="" />			
@@ -59,10 +60,9 @@ primer_layout:
 <h2>Auction Portal</h2>
 <p>Auction Portal focuses mainly on auctions. Its main object is to build a platform online which helps people to sell their items on a live auction portal. Users must have to sign-in to system in order to create new auctions. Bids can be put higher then the current bet and people can decide the date to end their auction. No bet will be recieve d after this deadline. In addition to this current on going auction can be viewed in Auctions page.</p>
 <p><a href="https://github.com/emreaksoy92/AuctionPortal" target="_blank" rel="noopener">Github: Auction Portal</a></p>
-			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/portfolio-2a.jpg" alt="" />			
-			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/portfolio-2b.jpg" alt="" />			
-			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/portfolio-2c.jpg" alt="" />			
-			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/04/portfolio-2d.jpg" alt="" />			
+			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/11.jpg" alt="" />			
+			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/12.jpg" alt="" />			
+			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/13.jpg" alt="" />			
 				<a href="#" aria-label="previous" aria-role="button"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
 <path d="M398.572,104.287L246.857,256.001l151.715,151.714c3.617,3.618,5.428,7.904,5.428,12.856c0,4.953-1.811,9.238-5.428,12.857 l-47.428,47.428c-3.619,3.619-7.904,5.428-12.857,5.428s-9.238-1.809-12.857-5.428l-212-212c-3.619-3.618-5.428-7.904-5.428-12.856 c0-4.953,1.81-9.238,5.428-12.857l212-212c3.619-3.618,7.904-5.428,12.857-5.428s9.238,1.81,12.857,5.428l47.428,47.429 C402.189,82.19,404,86.476,404,91.428c0,4.953-1.811,9.238-5.428,12.857V104.287z"/>
 </svg>
