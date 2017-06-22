@@ -5,14 +5,13 @@ author: admin
 post_date: 2017-05-31 03:11:57
 post_excerpt: ""
 layout: page
-permalink: http://www.emreaksoy.com.tr/homepage/
+permalink: http://www.emreaksoy.com.tr/
 published: true
 wpnux_page:
   - home
 primer_layout:
   - one-column-wide
 ---
-
 				<a href="#" target="_self" itemprop="url">
 				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/who-am-i.jpg" alt="" itemprop="image"  />
 				</a>
