@@ -8,6 +8,7 @@ permalink: http://www.emreaksoy.com.tr/
 published: true
 post_date: 2017-05-31 03:11:57
 ---
+
 				<a href="/aboutme/" target="_self" itemprop="url">
 				<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/who-am-i.jpg" alt="" itemprop="image"  />
 				</a>
