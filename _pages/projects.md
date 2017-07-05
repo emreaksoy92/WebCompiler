@@ -1,18 +1,13 @@
 ---
 ID: 160
 post_title: My Projects
-author: admin
-post_date: 2017-05-31 03:11:57
+author: emreaksoy
 post_excerpt: ""
 layout: page
 permalink: http://www.emreaksoy.com.tr/projects/
 published: true
-wpnux_page:
-  - portfolio
-primer_layout:
-  - one-column-wide
+post_date: 2017-05-31 03:11:57
 ---
-
 			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/1.jpg" alt="" />			
 			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/2.jpg" alt="" />			
 			<img src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/3.jpg" alt="" />			
