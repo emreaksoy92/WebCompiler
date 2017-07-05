@@ -1,16 +1,12 @@
 ---
 ID: 2
 post_title: About Me
-author: admin
-post_date: 2017-05-31 03:11:57
+author: emreaksoy
 post_excerpt: ""
 layout: page
 permalink: http://www.emreaksoy.com.tr/aboutme/
 published: true
-wpnux_page:
-  - about
-primer_layout:
-  - one-column-wide
+post_date: 2017-05-31 03:11:57
 ---
 <h1> Work Experience </h1>
 <img class="" src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/images.png" alt="images" width="160" height="160" />
