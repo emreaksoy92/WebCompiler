@@ -9,7 +9,7 @@ published: true
 post_date: 2017-05-31 03:11:57
 ---
 <h1> Work Experience </h1>
-<img class="" src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/05/images.png" alt="images" width="160" height="160" />
+<img class="" src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/07/amadeus.png" alt="images" width="160" height="160" />
 <h3>Amadeus IT Services</h3>
 <h4>Software Engineering Intern</h4>
 <h5>Jun 2017 - Jul 2017 2 mos</h5>
