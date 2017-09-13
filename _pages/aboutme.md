@@ -9,6 +9,16 @@ published: true
 post_date: 2017-05-31 03:11:57
 ---
 <h1> Work Experience </h1>
+
+<img class="" src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/07/amadeus.png" alt="images" width="160" height="160" />
+<h3>Amadeus IT Services</h3>
+<h4>Juniour Quality Assurance Engineer</h4>
+<h5>Sept 2017 - Current</h5>
+<ul>
+ 	<li>Testing and deployment.</li>
+        <li>Finding bugs in system.</li>
+</ul>
+
 <img class="" src="http://www.emreaksoy.com.tr/wp-content/uploads/2017/07/amadeus.png" alt="images" width="160" height="160" />
 <h3>Amadeus IT Services</h3>
 <h4>Software Engineering Intern</h4>
